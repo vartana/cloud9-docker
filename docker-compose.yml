@@ -1,7 +1,8 @@
 cloudide:
   build: .
   ports:
-    - "9001:80"
+    - "9001:3000"
+    - "9002:5000"
   volumes_from:
     - cloudide-volume
 cloudide-volume:
