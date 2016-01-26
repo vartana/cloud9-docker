@@ -2,3 +2,10 @@ cloudide:
   build: .
   ports:
     - "9001:80"
+  volumes_from:
+    - cloudide-volume
+cloudide-volume:
+  image: base/arch
+  command: "true"
+  volumes:
+    - /workspace
