@@ -10,6 +10,9 @@ MAINTAINER Vartan Arabyan <vartana@gmail.com>
 RUN apt-get update
 RUN apt-get install -y g++ curl libssl-dev apache2-utils git libxml2-dev sshfs
 
+#Bower
+RUN echo "{ "allow_root": true }" >> /root/.bowerrc
+
 # ------------------------------------------------------------------------------
 # Install Node.js
 RUN curl -sL https://deb.nodesource.com/setup_4.x | sudo -E bash -
