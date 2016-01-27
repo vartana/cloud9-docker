@@ -13,4 +13,4 @@ exports.PERMITTED_USERS = false;
 //  cert: "/path/to/ssl.pem"
 //};
 
-exports.BASE_URL = 'http://c9.vartancode.com';
+exports.BASE_URL = 'http://10.10.7.80';
