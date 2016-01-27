@@ -11,7 +11,7 @@ RUN apt-get update
 RUN apt-get install -y g++ curl libssl-dev apache2-utils git libxml2-dev sshfs
 
 #Bower
-RUN echo "{ "allow_root": true }" >> /root/.bowerrc
+RUN echo '{ "allow_root": true }' >> /root/.bowerrc
 
 # ------------------------------------------------------------------------------
 # Install Node.js
