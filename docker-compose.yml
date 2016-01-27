@@ -2,7 +2,7 @@ cloudide:
   build: .
   ports:
     - "5000:5000"
-    - "3000:3000"
+    - "3000-3100:3000-3100"
   volumes_from:
     - cloudide-volume
 cloudide-volume:
